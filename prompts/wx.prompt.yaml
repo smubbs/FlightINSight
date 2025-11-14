@@ -14,7 +14,7 @@ context:
     - "Invoked by Dispatch Agent to retrieve authoritative weather data (METAR, TAF, SIGMET, winds aloft)."
     - "Do not fabricate, infer, or call external sources beyond designated dataset."
     - "If requested data is unavailable, return empty items array with diagnostics note."
-
+ 
 inputs:
   - name: flight
     type: object
