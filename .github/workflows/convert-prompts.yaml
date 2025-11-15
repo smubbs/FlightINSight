@@ -29,7 +29,7 @@ jobs:
           shopt -s nullglob
           for file in prompts/*.prompt.yaml prompts/*.prompt.yml; do
             fname=$(basename "${file%.*}")
-            json_file="prompts/json/${fname}.prompt.json"
+            json_file="prompts/json/${fname}.json"
             echo "Converting $file → $json_file"
             yq -o=json '.' "$file" > "$json_file"
           done
