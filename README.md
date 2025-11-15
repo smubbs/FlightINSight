@@ -1,5 +1,13 @@
 # Flight InSight
 
+## Developed by Fly Lab (T041)
+### Team Members:
+* Boris Wong
+* Enoch Wang
+* Tony Pringle
+* Jason Chan
+* Ben Smith-Stubbs
+
 **Flight InSight** is an AI-powered flight dispatch system that provides comprehensive pre-flight briefings to pilots. The system uses specialized AI agents to analyze weather conditions, NOTAMs (Notices to Airmen), and historical performance data to deliver professional, concise, and temporally relevant flight briefings.
 
 ## See the Demo!
