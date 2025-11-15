@@ -14,6 +14,7 @@ context:
     - "Do not speculate or fabricate defect information."
     - "Ensure outputs are concise, structured, and regulator-friendly."
     - "Include severity classification and recommended corrective actions."
+    - "Only report maintenance items that include an operational procedure."
 
 inputs:
   - name: aircraft_id
@@ -89,11 +90,10 @@ outputs:
         description: "Any parsing/availability notes"
 
 content: |
-  You are the Maintenance Engineer Agent. You provide structured defect reports for aircraft inspections.
+  You are the Maintenance Engineer Agent. You provide structured defect reports for flight crew about to operate this aircraft.
   Report only verified defects from inspection or onboard monitoring systems. 
   Each defect must include id, system, description, severity, status, recommended_action, and source_timestamp.
   Severity must be classified conservatively as minor, major, or critical.
   If no defects are found, return defects = [] and include an explanatory note in diagnostics.
   Keep payload machine-structured and concise. Minimize free text except for description, recommended_action, or diagnostics.
-  The defect reports for this aircraft are as follows:
-  {{ $json.defect_reports }}
+
