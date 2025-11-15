@@ -1,0 +1,85 @@
+{
+    "flight":
+    {
+        "operator": "Cathay Pacific",
+        "flight_number": "CX840",
+        "aircraft": "Airbus A350-900",
+        "date": "2025-11-15",
+        "departure":
+        {
+            "airport": "VHHH",
+            "runway": "07R/25L",
+            "etd_utc": "2025-11-15T08:30:00Z"
+        },
+        "arrival":
+        {
+            "airport": "KJFK",
+            "runway": "31L/4R",
+            "eta_utc": "2025-11-16T01:55:00Z"
+        },
+        "block_time": "15:25",
+        "air_time": "15:05"
+    },
+    "route":
+    {
+        "summary": "VHHH → East Asia exit → NOPAC/PACOTS → Anchorage FIR → Arctic → Gander Oceanic → NAT Track → JFK STAR",
+        "atc_flight_plan": "VHHH DCT BETTY A1 IDOSI A1 SABNO A1 KAGIS DCT TOUHU DCT NIPPI DCT NOPAC TRANSITION YAK J501 ODK J501 ANC J501 BRW DCT NPOLE DCT GANDER OCA NATZ DCT YQX DCT ENE DCT CAM DCT KJFK",
+        "sid": "BETTY1X/1Z",
+        "star": "CAMRN4 or ROBER3",
+        "approach": "ILS RWY 31L or 4R"
+    },
+    "etops":
+    {
+        "policy": "ETOPS 330",
+        "alternates":
+        [
+            "KEWR",
+            "KBOS"
+        ],
+        "destination": "KJFK",
+        "reclear_option": "CYQX"
+    },
+    "weights":
+    {
+        "dow_tonnes": 132.0,
+        "zfw_tonnes": 168.0,
+        "tow_tonnes": 268.0,
+        "law_tonnes": 196.0,
+        "limits_tonnes":
+        {
+            "mtow": 280.0,
+            "mlw": 201.0,
+            "mzwf": 200.0
+        }
+    },
+    "fuel_plan_tonnes":
+    {
+        "trip": 93.0,
+        "contingency": 4.7,
+        "etops_margin": 1.8,
+        "alternate": 2.2,
+        "final_reserve": 2.8,
+        "taxi": 1.5,
+        "extra": 1.5,
+        "block": 107.5
+    },
+    "weather":
+    {
+        "departure":
+        {
+            "metar": "VHHH 151400Z 06008KT 9999 FEW030 SCT080 26/21 Q1012",
+            "taf": "Light easterly winds, visibility >10 km, scattered clouds"
+        },
+        "enroute":
+        {
+            "winds": "Westerly jet up to 150 kt at FL350",
+            "turbulence": "Moderate CAT near Aleutians",
+            "icing": "Light to moderate FL200–280"
+        },
+        "arrival":
+        {
+            "metar": "KJFK 151400Z 28012KT 10SM BKN050 12/07 A2992",
+            "taf": "NW winds 12–18 kt, broken 5000 ft, VFR"
+        }
+    }
+}
