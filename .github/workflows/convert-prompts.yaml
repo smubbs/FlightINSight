@@ -21,11 +21,15 @@ jobs:
           chmod +x /usr/local/bin/yq
           yq --version
 
-      - name: Convert YAML prompts to JSON
+      - name: Ensure prompts/json directory exists
+        run: mkdir -p prompts/json
+
+      - name: Convert YAML prompts to JSON in prompts/json
         run: |
           shopt -s nullglob
           for file in prompts/*.prompt.yaml prompts/*.prompt.yml; do
-            json_file="${file%.*}.json"
+            fname=$(basename "${file%.*}")
+            json_file="prompts/json/${fname}.prompt.json"
             echo "Converting $file → $json_file"
             yq -o=json '.' "$file" > "$json_file"
           done
@@ -34,6 +38,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add prompts/*.prompt.json
+          git add prompts/json/*.prompt.json
           git diff --cached --quiet || git commit -m "Auto-convert YAML prompts to JSON"
           git push
