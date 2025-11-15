@@ -1,0 +1,54 @@
+========================
+NOTAM PACKAGE – CX840
+Route: VHHH → KJFK
+Date: 15 NOV 2025
+========================
+
+--- VHHH (Hong Kong International) ---
+A2537/25: RWY 25L ILS "ITFL" CAT I ONLY
+A2534/25: TWY F between TWY E2 and TWY D CLOSED due to WIP
+A2533/25: TWY J1, J2, K1, K west of TWY Q1 CLOSED due to WIP
+A2532/25: AIP SUP 20/25 suspended due to flight check
+
+--- KJFK (New York JFK) ---
+Multiple active NOTAMs (59 total). Highlights:
+- Runway/taxiway closures due to construction
+- ILS RWY 31L periodic maintenance
+- Laser activity hazard in approach corridors (TARVA area, 4–8 NM final)
+
+--- RJCC (New Chitose, Sapporo) ---
+C1812/25: ILS LOC RWY 19R unserviceable 07 AUG – 26 NOV 2025
+Other FIR NOTAMs active in Fukuoka FIR
+
+--- RJAA (Narita, Tokyo) ---
+Active FIR NOTAMs (RJJJ). Includes:
+- ATS route amendments (R217 radial correction)
+- Obstruction light outages (Okayama tower)
+- Flow control procedures in Kanto sector
+
+--- PANC (Anchorage) ---
+Active NOTAMs include:
+- Runway/taxiway closures for maintenance
+- Nav aid serviceability changes
+- Apron works in progress
+
+--- PABR (Barrow/Utqiaġvik) ---
+NOTAM 11/171: Aprons – 1/2 inch dry snow over compacted snow (observed 14 NOV 2314 UTC)
+Other apron FICON advisories active
+
+--- CYQX (Gander) ---
+E5743/25: ILS RWY 13 unserviceable
+S3614/25: Runway surface condition reports (wet/dry mix)
+Additional aerodrome facility NOTAMs active
+
+--- KBOS (Boston Logan) ---
+Active NOTAMs include:
+- Runway/taxiway closures for maintenance
+- Obstruction light advisories
+- Construction-related restrictions
+
+--- KEWR (Newark Liberty) ---
+Active NOTAMs include:
+- Runway/taxiway closures for maintenance
+- Bird/crane hazards in vicinity
+- RNAV approach procedure changes
